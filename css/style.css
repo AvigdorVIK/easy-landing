@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conteiner {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.menu_iner {
+    margin: 25px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 15px 30px;
+
+}
+.nav li a:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.box{
+    
+    background: rgb(89, 17, 5);
+    background: linear-gradient(90deg, rgb(5, 2, 64) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box__inner{
+    height: 170px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.item{
+    text-align: center;
+
+}
+.number{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+.text{
+    color:rgb(252, 212, 196);
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.line{
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+i.fa{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+p{
+    color: rgb(32, 29, 29);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.teht {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    border: 20px;
+    padding: 20px;
+    
+    
+ }
+
+.imag{
+   background-image: url(../img/main/aimol.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 120px;
+   width: 100%;
+   background-position: center;
+   
+
+
+    
+ }
+
+ .prodlist{
+    justify-content: space-around ;
+    align-items: center;
+    border: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(32, 29, 29);
+
+    
+
+ }
+
+
